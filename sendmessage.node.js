@@ -15,7 +15,7 @@ var post_data = "<?xml version=\"1.0\"?>\
 var post_req = http.request(
   {
     host: "gw2-fro.pswin.com",
-    port: "82",
+    port: "81",
     method: "POST",
     header: {
       'Content-Type': 'application/xml',
